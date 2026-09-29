@@ -1,0 +1,24 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.pytest_cache/
+
+# Mac
+.DS_Store
+
+# Project specific (Data, Notebooks, and Scripts are not needed in production)
+Data/
+notebook/
+scripts/
+mlruns/
+mlflow.db
+notebook_code.py
+
+# Env files
+.env
